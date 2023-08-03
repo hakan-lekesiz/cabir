@@ -1,0 +1,31 @@
+/* Common xs1, xs2 */
+@media all and (max-width: 767px) {
+  .section-10 {
+    background: #E8F0F3;
+    padding: 48px 0 96px 0; }
+    .section-10 .c-wrapper .c-container-01 {
+      flex-direction: column;
+      display: flex; }
+      .section-10 .c-wrapper .c-container-01 .c-item-02 {
+        width: 295px;
+        margin-top: 24px; }
+      .section-10 .c-wrapper .c-container-01 .c-item-03 {
+        width: calc(100% + 40px);
+        margin-top: 40px;
+        margin-left: -20px; } }
+/* Common sm, md, lg */
+@media all and (min-width: 768px) {
+  .section-10 {
+    background: #E8F0F3;
+    padding: 120px 0 160px 0; }
+    .section-10 .c-wrapper .c-container-01 {
+      flex-direction: column;
+      align-items: center;
+      display: flex; }
+      .section-10 .c-wrapper .c-container-01 > .c-item-02 {
+        width: 898px;
+        margin-top: 32px; }
+      .section-10 .c-wrapper .c-container-01 .c-item-03 {
+        margin-top: 80px; } }
+
+/*# sourceMappingURL=10.css.map */

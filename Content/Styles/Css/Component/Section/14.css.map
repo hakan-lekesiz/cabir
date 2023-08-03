@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAIA,qBAAqB;AACrB,iCAAoD;EAChD,WAAY;IACR,UAAU,ECsCF,OAAO;IDpCf,sBAAW;MACP,OAAO,EAAE,aAAa;AAKlC,uBAAuB;AACvB,iCAA8C;EAC1C,WAAY;IACR,gBAAgB,EAAE,OAAO;IAEzB,sBAAW;MACP,OAAO,EAAE,cAAc",
+"sources": ["../../../Sass/Component/Section/14.scss","../../../Sass/Base/Colour.scss"],
+"names": [],
+"file": "14.css"
+}

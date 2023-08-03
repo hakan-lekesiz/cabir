@@ -1,0 +1,166 @@
+﻿@import "../../Base/Colour.scss";
+@import "../../Base/Global.scss";
+
+
+
+/* Common xs1, xs2 */
+@media all and (max-width: #{($mq-sm1 - 1) + "px"}) {
+    .section-07 {
+        height: 433px;
+        margin: 0;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        overflow: hidden;
+
+        .c-wrapper {
+            z-index: 3;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding-top: 54px;
+
+            .c-item-01 {
+                font-family: 'Playfair Display';
+                font-weight: 700;
+                font-size: 1.5625em;
+                line-height: 33px;
+                color: #FFFFFF;
+                text-align: center;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                margin-bottom: 16px;
+
+                svg {
+                    margin-bottom: 14px;
+                }
+            }
+
+            .c-item-02 {
+                width: 340px;
+                font-family: 'Playfair Display';
+                font-weight: 400;
+                font-size: 1.25em;
+                line-height: 27px;
+                text-align: center;
+                color: #FFFFFF;
+            }
+        }
+
+        .parallax-img {
+            z-index: 1;
+            position: absolute;
+            width: 100%;
+            object-fit: cover;
+            transition: transform 0s ease 0s;
+        }
+
+        &:after {
+            content: "";
+            z-index: 2;
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            background: rgba(0, 93, 79, 0.4);
+        }
+
+        .scroll-star {
+            width: 1px;
+            height: 155px;
+            background: #BD9A5F;
+            position: absolute;
+            bottom: 25px;
+            left: calc(50% - 0.5px);
+            z-index: 11;
+
+            svg {
+                position: absolute;
+                top: 0;
+                left: calc(50% - 8.5px);
+            }
+        }
+    }
+}
+
+/* Common sm, md, lg */
+@media all and (min-width: #{$mq-sm1 + "px"}) {
+    .section-07 {
+        height: 487px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        overflow: hidden;
+
+        .c-wrapper {
+            z-index: 3;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding-top: 106px;
+
+            .c-item-01 {
+                font-family: 'Playfair Display';
+                font-weight: 700;
+                font-size: 2.1875em;
+                line-height: 47px;
+                color: #FFFFFF;
+                margin-bottom: 10px;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+
+                svg {
+                    margin-bottom: 14px;
+                }
+            }
+
+            .c-item-02 {
+                width: 852px;
+                font-family: 'Playfair Display';
+                font-weight: 400;
+                font-size: 2.1875em;
+                line-height: 47px;
+                text-align: center;
+                color: #FFFFFF;
+            }
+        }
+
+        .parallax-img {
+            z-index: 1;
+            position: absolute;
+            width: 100%;
+            object-fit: cover;
+            transition: transform 0s ease 0s;
+        }
+
+        &:after {
+            content: "";
+            z-index: 2;
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            background: rgba(0, 93, 79, 0.4);
+        }
+
+        .scroll-star {
+            width: 1px;
+            height: 135px;
+            background: #BD9A5F;
+            position: absolute;
+            bottom: 25px;
+            left: calc(50% - 0.5px);
+            z-index: 11;
+
+            svg {
+                position: absolute;
+                top: 0;
+                left: calc(50% - 8.5px);
+            }
+        }
+    }
+}

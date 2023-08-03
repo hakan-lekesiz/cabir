@@ -1,0 +1,335 @@
+/* Common xs1, xs2 */
+@media all and (max-width: 767px) {
+  .section-09 {
+    padding: 33px 0 36px 0;
+    overflow: hidden;
+  }
+  .section-09 .c-wrapper {
+    width: 100%;
+  }
+  .section-09 .c-wrapper .c-container-01 {
+    width: 255px;
+    margin: 0 auto 32px auto;
+  }
+  .section-09 .c-wrapper .c-container-01 .c-item-01 {
+    margin-bottom: 22px;
+  }
+  .section-09 .c-wrapper .c-container-01 .c-item-01 .c-item-01-A {
+    position: absolute;
+    top: 9px;
+    left: -61px;
+  }
+  .section-09 .c-wrapper .c-container-01 .c-item-01 .c-item-01-B {
+    font-family: "Playfair Display";
+    font-weight: 400;
+    font-size: 1.875em;
+    line-height: 48px;
+    color: #015D4F;
+    margin-bottom: 6px;
+  }
+  .section-09 .c-wrapper .c-container-01 .c-item-01 .c-item-01-C {
+    font-weight: 300;
+    font-size: 0.8125em;
+    line-height: 17px;
+    color: #80837D;
+    width: 100%;
+  }
+  .section-09 .c-wrapper .c-container-01 .c-item-02 {
+    margin-top: 13px;
+  }
+  .section-09 .c-wrapper .c-container-01 .c-item-02 .c-item-02-A {
+    display: block;
+    font-weight: 500;
+    font-size: 1.125em;
+    line-height: 23px;
+    color: #BD9A5F;
+    margin-bottom: 6px;
+  }
+  .section-09 .c-wrapper .c-container-02 {
+    width: 100%;
+    padding-bottom: 500px;
+  }
+  .section-09 .c-wrapper .c-container-02 .c-item-01 .c-item-01-A .c-unit-01 {
+    width: 100%;
+  }
+  .section-09 .c-wrapper .c-container-02 .c-item-02 {
+    position: absolute;
+    left: 0px;
+    bottom: 274px;
+  }
+  .section-09 .c-wrapper .c-container-02 .c-item-02 .c-unit-01 {
+    width: 127px;
+    height: 125px;
+    object-fit: cover;
+    z-index: 2;
+  }
+  .section-09 .c-wrapper .c-container-02 .c-item-02:after {
+    content: "";
+    position: absolute;
+    top: -15px;
+    right: -14px;
+    width: 76px;
+    height: 73px;
+    background: #BD9A5F;
+    z-index: 1;
+  }
+  .section-09 .c-wrapper .c-container-02 .c-item-03 {
+    position: absolute;
+    left: 0;
+    bottom: 70px;
+  }
+  .section-09 .c-wrapper .c-container-02 .c-item-03 .c-unit-01 {
+    width: 192px;
+    height: 187px;
+    object-fit: cover;
+    z-index: 2;
+  }
+  .section-09 .c-wrapper .c-container-02 .c-item-03:after {
+    content: "";
+    position: absolute;
+    right: -40px;
+    bottom: -34px;
+    width: 127px;
+    height: 125px;
+    background: #015D4F;
+    z-index: 1;
+  }
+  .section-09 .c-wrapper .c-container-02 .c-item-04 {
+    position: absolute;
+    right: 0;
+    bottom: 194px;
+    z-index: 4;
+  }
+  .section-09 .c-wrapper .c-container-02 .c-item-04 .c-item-01-A .c-unit-01 {
+    width: 283px;
+    height: 282px;
+    object-fit: cover;
+  }
+  .section-09 .c-wrapper .c-container-02 .c-item-05 {
+    position: absolute;
+    right: 22px;
+    bottom: 99px;
+    z-index: 5;
+  }
+  .section-09 .c-wrapper .c-container-02 .c-item-05 .c-unit-01 {
+    object-fit: cover;
+    width: 127px;
+    height: 125px;
+  }
+  .section-09 .c-wrapper .c-container-03 {
+    display: flex;
+    width: calc(100% - 30px);
+    margin: 0 auto 32px auto;
+  }
+  .section-09 .c-wrapper .c-container-03 .c-item-01 {
+    height: 39px;
+    width: 50%;
+    background: #BD9A5F;
+    font-weight: 500;
+    font-size: 0.8125em;
+    line-height: 17px;
+    letter-spacing: 0.15em;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .section-09 .c-wrapper .c-container-03 .c-item-02 {
+    height: 39px;
+    width: 50%;
+    background: #015D4F;
+    font-weight: 500;
+    font-size: 0.8125em;
+    line-height: 17px;
+    letter-spacing: 0.15em;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .section-09 .c-wrapper .scroll-star {
+    display: none;
+  }
+}
+/* Common sm, md, lg */
+@media all and (min-width: 768px) {
+  .section-09 {
+    padding: 102px 0 110px 0;
+    overflow: hidden;
+  }
+  .section-09 .c-wrapper {
+    width: 856px;
+  }
+  .section-09 .c-wrapper .c-container-01 {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 41px;
+  }
+  .section-09 .c-wrapper .c-container-01 .c-item-01 .c-item-01-A {
+    position: absolute;
+    top: 13px;
+    left: -61px;
+  }
+  .section-09 .c-wrapper .c-container-01 .c-item-01 .c-item-01-B {
+    font-family: "Playfair Display";
+    font-weight: 400;
+    font-size: 2.25em;
+    line-height: 48px;
+    color: #015D4F;
+    margin-bottom: 11px;
+  }
+  .section-09 .c-wrapper .c-container-01 .c-item-01 .c-item-01-C {
+    font-weight: 300;
+    font-size: 1em;
+    line-height: 19px;
+    color: #80837D;
+    width: 417px;
+  }
+  .section-09 .c-wrapper .c-container-01 .c-item-02 {
+    margin-top: 13px;
+  }
+  .section-09 .c-wrapper .c-container-01 .c-item-02 .c-item-02-A {
+    display: block;
+    font-weight: 500;
+    font-size: 1.125em;
+    line-height: 23px;
+    color: #BD9A5F;
+    margin-bottom: 6px;
+    text-align: right;
+  }
+  .section-09 .c-wrapper .c-container-02 {
+    width: 100%;
+    height: 450px;
+  }
+  .section-09 .c-wrapper .c-container-02 .c-item-01 {
+    position: absolute;
+    left: 0;
+    top: 0;
+  }
+  .section-09 .c-wrapper .c-container-02 .c-item-01 .c-item-01-A .c-unit-01 {
+    width: 389px;
+    height: 387px;
+    object-fit: cover;
+  }
+  .section-09 .c-wrapper .c-container-02 .c-item-02 {
+    position: absolute;
+    left: 412px;
+    top: 87px;
+  }
+  .section-09 .c-wrapper .c-container-02 .c-item-02 .c-unit-01 {
+    width: 127px;
+    height: 125px;
+    object-fit: cover;
+    z-index: 2;
+  }
+  .section-09 .c-wrapper .c-container-02 .c-item-02:after {
+    content: "";
+    position: absolute;
+    top: -15px;
+    right: -14px;
+    width: 76px;
+    height: 73px;
+    background: #BD9A5F;
+    z-index: 1;
+  }
+  .section-09 .c-wrapper .c-container-02 .c-item-03 {
+    position: absolute;
+    left: 404px;
+    bottom: 34px;
+  }
+  .section-09 .c-wrapper .c-container-02 .c-item-03 .c-unit-01 {
+    width: 192px;
+    height: 187px;
+    object-fit: cover;
+    z-index: 2;
+  }
+  .section-09 .c-wrapper .c-container-02 .c-item-03:after {
+    content: "";
+    position: absolute;
+    right: -40px;
+    bottom: -34px;
+    width: 127px;
+    height: 125px;
+    background: #015D4F;
+    z-index: 1;
+  }
+  .section-09 .c-wrapper .c-container-02 .c-item-04 {
+    position: absolute;
+    right: 0;
+    top: 10px;
+    z-index: 4;
+  }
+  .section-09 .c-wrapper .c-container-02 .c-item-04 .c-item-01-A .c-unit-01 {
+    width: 283px;
+    height: 282px;
+    object-fit: cover;
+  }
+  .section-09 .c-wrapper .c-container-02 .c-item-05 {
+    position: absolute;
+    right: 39px;
+    bottom: 63px;
+    z-index: 5;
+  }
+  .section-09 .c-wrapper .c-container-02 .c-item-05 .c-unit-01 {
+    width: 127px;
+    height: 125px;
+    object-fit: cover;
+  }
+  .section-09 .c-wrapper .c-container-03 {
+    display: flex;
+  }
+  .section-09 .c-wrapper .c-container-03 .c-item-01 {
+    height: 39px;
+    background: #BD9A5F;
+    font-weight: 500;
+    font-size: 0.8125em;
+    line-height: 17px;
+    letter-spacing: 0.15em;
+    color: #FFFFFF;
+    padding: 0 51px;
+    width: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 9px;
+    transition: transform 0.25s;
+  }
+  .section-09 .c-wrapper .c-container-03 .c-item-01:hover {
+    transform: scale(1.03);
+  }
+  .section-09 .c-wrapper .c-container-03 .c-item-02 {
+    height: 39px;
+    background: #015D4F;
+    font-weight: 500;
+    font-size: 0.8125em;
+    line-height: 17px;
+    letter-spacing: 0.15em;
+    color: #FFFFFF;
+    padding: 0 51px;
+    width: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: transform 0.25s;
+  }
+  .section-09 .c-wrapper .c-container-03 .c-item-02:hover {
+    transform: scale(1.03);
+  }
+  .section-09 .c-wrapper .scroll-star {
+    width: 1px;
+    height: 540px;
+    background: #BD9A5F;
+    position: absolute;
+    top: -102px;
+    left: -102px;
+    z-index: 111;
+  }
+  .section-09 .c-wrapper .scroll-star svg {
+    position: absolute;
+    top: 0;
+    left: calc(50% - 8.5px);
+  }
+}
+
+/*# sourceMappingURL=09.css.map */

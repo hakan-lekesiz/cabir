@@ -1,0 +1,153 @@
+﻿@import "../../base/Global";
+
+.comp-section-34 {
+    margin-bottom: 70px;
+
+
+
+    .gallery {
+        display: flex;
+        flex-wrap: wrap;
+        max-width: 1065px;
+
+        [data-fancybox] {
+            margin-right: 20px;
+            margin-bottom: 20px;
+            width: 340px;
+
+            img {
+                width: 100%;
+            }
+        }
+
+        .c-container-03 {
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 32px;
+
+            .c-item-01 {
+                font-family: 'Space Grotesk';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 20px;
+                text-align: center;
+                color: #000000;
+            }
+
+            .c-item-02 {
+                font-family: 'Space Grotesk';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 20px;
+                text-align: center;
+                color: #015D4F;
+            }
+        }
+
+        .c-container-01 {
+            display: flex;
+            flex-wrap: wrap;
+            width: 720px;
+
+            video {
+                width: calc(100% - 20px);
+                height: 473px;
+                object-fit: cover;
+            }
+        }
+
+        .c-container-02 {
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+
+            a {
+                margin-right: 0;
+            }
+
+            > :last-child {
+                margin-bottom: 0;
+            }
+        }
+
+        .c-container-04 {
+            display: flex;
+            flex-direction: column;
+
+            a {
+                margin-right: 0;
+            }
+        }
+    }
+}
+
+    @media all and (max-width: #{($mq-sm1 - 1) + "px"}) {
+        .comp-section-34 {
+            .gallery {
+
+                [data-fancybox] {
+                    margin-right: 0;
+                    margin-bottom: 12px;
+                    width: auto;
+
+                    img {
+                        width: 100%;
+                    }
+                }
+
+
+
+
+                .c-container-03 {
+                }
+
+
+
+                .c-container-01 {
+
+                    a {
+                        width: 100%;
+                        margin-right:0;
+                    }
+
+                    > :first-child {
+                        img {
+                            width: 100%;
+                            object-fit: cover;
+                        }
+                    }
+
+                    > :last-child {
+                        img {
+                            width: 100%;
+                            object-fit: cover;
+                        }
+                    }
+
+
+                    video {
+                        width: 100%;
+                        height:auto;
+                        object-fit: cover;
+                        margin-bottom:12px;
+                    }
+                }
+
+                .c-container-02 {
+
+                    img {
+                        width: 100%;
+                        object-fit: cover;
+                    }
+
+                    > a {
+                        margin-right: 0;
+                    }
+                }
+            }
+        }
+    }

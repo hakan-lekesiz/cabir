@@ -1,0 +1,87 @@
+﻿@import "../../base/Global";
+
+.comp-section-30 {
+    margin-bottom: 96px;
+    background: rgba(235, 233, 226, 0.52);
+
+    .c-wrapper {
+        display: flex;
+        justify-content: space-between;
+        padding: 136px 158px 136px 264px;
+
+
+        .c-container-01, .c-container-02 {
+            width: 352px;
+
+            .c-item-01 {
+                font-family: 'Space Grotesk';
+                font-style: normal;
+                font-weight: 600;
+                font-size: 1.125em;
+                line-height: 23px;
+                color: #000000;
+            }
+
+            .c-item-02 {
+                font-family: 'Space Grotesk';
+                font-style: normal;
+                font-weight: 300;
+                font-size: 1.125em;
+                line-height: 23px;
+                color: #000000;
+                margin-bottom: 24px;
+            }
+        }
+
+        .c-container-02 {
+            width: 467px;
+        }
+
+
+        .scroll-star {
+            width: 1px;
+            height: 246px;
+            background: #BD9A5F;
+            position: absolute;
+            top: 0;
+            left: 90px;
+            z-index: 11;
+
+            svg {
+                position: absolute;
+                top: 0;
+                left: calc(50% - 8.5px);
+            }
+        }
+    }
+}
+
+
+@media all and (max-width: #{($mq-sm1 - 1) + "px"}) {
+    .comp-section-30 {
+        margin-bottom: 0;
+
+        .c-wrapper {
+            padding: 64px 29px 62px 47px;
+            flex-direction: column;
+
+            .c-container-01 {
+                width: 100%;
+
+                .c-item-01 {
+                    font-size: 1.125em;
+                    line-height: 23px;
+                }
+
+                .c-item-02 {
+                    font-size: 1.125em;
+                    line-height: 23px;
+                }
+            }
+
+            .scroll-star{
+                display:none;
+            }
+        }
+    }
+}

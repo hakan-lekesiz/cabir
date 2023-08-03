@@ -1,0 +1,14 @@
+/* Common xs1, xs2 */
+@media all and (max-width: 767px) {
+  .section-15 {
+    background-color: #2F8EB3; }
+    .section-15 .c-wrapper {
+      padding: 24px 0 96px 0; } }
+/* Common sm, md, lg */
+@media all and (min-width: 768px) {
+  .section-15 {
+    background-color: #2F8EB3; }
+    .section-15 .c-wrapper {
+      padding: 60px 0 240px 0; } }
+
+/*# sourceMappingURL=15.css.map */

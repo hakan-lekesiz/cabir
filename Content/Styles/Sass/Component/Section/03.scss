@@ -1,0 +1,228 @@
+﻿@import "../../Base/Colour.scss";
+@import "../../Base/Global.scss";
+
+
+
+/* Common xs1, xs2 */
+@media all and (max-width: #{($mq-sm1 - 1) + "px"}) {
+    .section-03 {
+        background: #EBE9E2;
+        padding: 37px 0 0 0;
+        overflow: hidden;
+
+        .c-item-01 {
+            width: 312px;
+            height: 280px;
+            object-fit: cover;
+        }
+
+        .c-item-02 {
+            padding: 37px 53px 80px 70px;
+            z-index: 9;
+
+            .c-item-02-A {
+                font-family: 'Playfair Display';
+                font-weight: 400;
+                font-size: 1.5625em;
+                line-height: 33px;
+                color: #BD9A5F;
+                margin-bottom: 18px;
+                width: fit-content;
+            }
+
+            .c-item-02-B {
+                width: 100%;
+                margin-bottom: 30px;
+                font-family: 'Space Grotesk';
+                font-weight: 300;
+                font-size: 0.875em;
+                line-height: 18px;
+                color: #80837D;
+            }
+
+            .c-item-02-C {
+            }
+
+            .c-item-02-D {
+                width: 100%;
+                position: absolute;
+                left: 0;
+                bottom: 0;
+                display: flex;
+
+                .c-unit-01, .c-unit-02 {
+                    width: 50%;
+                    height: 39px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    font-weight: 700;
+                    font-size: 0.8125em;
+                    line-height: 17px;
+                    letter-spacing: 0.15em;
+                    color: #FFFFFF;
+                    background: #BD9A5F;
+                }
+
+                .c-unit-02 {
+                    color: #BD9A5F;
+                    background: #FFFFFF;
+                }
+            }
+
+            .c-item-02-E {
+                position: absolute;
+                top: -200px;
+                left: calc(50% - 100px);
+                width: calc(50% + 300px);
+                z-index: 9;
+
+                .c-unit-01 {
+                    font-family: 'Playfair Display';
+                    font-weight: 400;
+                    font-size: 8.8125em;
+                    line-height: 188px;
+                    color: #FFFFFF;
+                    width: fit-content;
+                    position: absolute;
+                    right: 0;
+                    transition: transform 0.1s, opacity 1s;
+                    opacity: 0;
+
+                    &.active {
+                        opacity: 1;
+                    }
+                }
+            }
+        }
+
+
+        .scroll-star {
+            width: 1px;
+            height: 415px;
+            background: #BD9A5F;
+            position: absolute;
+            top: 0;
+            left: 39px;
+            z-index: 11;
+
+            svg {
+                position: absolute;
+                top: 0;
+                left: calc(50% - 8.5px);
+            }
+        }
+    }
+}
+
+/* Common sm, md, lg */
+@media all and (min-width: #{$mq-sm1 + "px"}) {
+    .section-03 {
+        display: flex;
+        align-items: center;
+        overflow: hidden;
+
+        .c-item-01 {
+            width: 50%;
+            height: auto;
+        }
+
+        .c-item-02 {
+            width: 50%;
+            background: #EBE9E2;
+            padding: 162px 0 90px 75px;
+            z-index: 9;
+
+            .c-item-02-A {
+                font-family: 'Playfair Display';
+                font-weight: 400;
+                font-size: 1.875em;
+                line-height: 40px;
+                color: #BD9A5F;
+                margin-bottom: 18px;
+                width: fit-content;
+            }
+
+            .c-item-02-B {
+                width: 512px;
+                margin-bottom: 40px;
+                font-family: 'Space Grotesk';
+                font-weight: 300;
+                font-size: 1.125em;
+                line-height: 23px;
+                color: #80837D;
+            }
+
+            .c-item-02-C {
+            }
+
+            .c-item-02-D {
+                position: absolute;
+                left: 75px;
+                bottom: 0;
+                display: flex;
+
+                .c-unit-01, .c-unit-02 {
+                    width: 211px;
+                    height: 39px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    font-weight: 700;
+                    font-size: 0.8125em;
+                    line-height: 17px;
+                    letter-spacing: 0.15em;
+                    color: #FFFFFF;
+                    background: #BD9A5F;
+                }
+
+                .c-unit-02 {
+                    color: #BD9A5F;
+                    background: #FFFFFF;
+                }
+            }
+
+            .c-item-02-E {
+                position: absolute;
+                top: -45px;
+                left: -125px;
+                width: calc(100% - 200px);
+                z-index: 9;
+
+                .c-unit-01 {
+                    font-family: 'Playfair Display';
+                    font-weight: 400;
+                    font-size: 10em;
+                    line-height: 213px;
+                    color: #FFFFFF;
+                    width: fit-content;
+                    position: absolute;
+                    right: 0;
+                    transition: transform 0.1s, opacity 1s;
+                    opacity: 0;
+
+                    &.active {
+                        opacity: 1;
+                    }
+                }
+            }
+        }
+
+
+        .scroll-star {
+            width: 1px;
+            height: 415px;
+            background: #BD9A5F;
+            position: absolute;
+            top: 24px;
+            right: calc-wrapper-space();
+            z-index: 11;
+
+            svg {
+                position: absolute;
+                top: 0;
+                left: calc(50% - 8.5px);
+            }
+        }
+    }
+}

@@ -1,0 +1,18 @@
+﻿@import "../../base/Global";
+
+.comp-section-23 {
+    display: flex;
+
+    .c-container-01 {
+        width: 100%;
+    }
+
+    img {
+        width: 100%;
+    }
+}
+@media all and (max-width: #{($mq-sm1 - 1) + "px"}) {
+    .comp-section-23 {
+    }
+
+}

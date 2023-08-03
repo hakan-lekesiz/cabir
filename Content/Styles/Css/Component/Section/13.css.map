@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAIA,qBAAqB;AACrB,iCAAoD;EAChD,WAAY;IACR,gBAAgB,ECWZ,OAAO;IDTX,sBAAW;MACP,OAAO,EAAE,aAAa;MAElB,2CAAS;QACL,WAAW,EAAC,eAAe;AAO/C,uBAAuB;AACvB,iCAA8C;EAC1C,WAAY;IACR,UAAU,ECLN,OAAO;IDOX,sBAAW;MACP,OAAO,EAAE,cAAc;MAEvB,iCAAW;QACP,OAAO,EAAC,IAAI;QACZ,WAAW,EAAC,MAAM;QAClB,eAAe,EAAC,MAAM",
+"sources": ["../../../Sass/Component/Section/13.scss","../../../Sass/Base/Colour.scss"],
+"names": [],
+"file": "13.css"
+}
